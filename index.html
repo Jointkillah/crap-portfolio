@@ -1,71 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Esor Andy">
-    <meta name="description" content="Store hours for The Little Taco Shop">
-    <title>LTS store hours</title>
+    <title>Grid Layout</title>
     <link rel="stylesheet" href="CSS/style.css">
     <link rel="icon" href="html5Favicon.png" type="image/x-icon">
-    <script src="JS/main.js" defer></script>
 </head>
-
 <body>
-    <header class="header">
-        <h1 class="header__h1">Shop Hours</h1>
-        <nav class="header__nav">
-            <ul class="header__ul">
-                <li><a href="/">Home</a></li>
-                <li><a href="/#menu">Menu</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="about.html">About</a></li>
-            </ul>
-        </nav>
-
+    <header class="header el">
+        <h1>CSS Grid Layout</h1>
     </header>
-    <section>
-        <figure>
-            <img src="images/a_tray_of_tasty_tacos.jpg" alt="Tray of tasty tacos" title="We love trays of tacos!"
-                width="450" height="355">
-            <figcaption class="offscreen">
-                A tray of tasty tacos
-            </figcaption>
-        </figure>
-    </section>
 
-    <main class="main">
-        <!--content here-->
-        <article class="main__article">
-            <h2>Hours</h2>
-            <p class="daysopen">
-                We are open 7 days a week!
-            </p>
-            <dl class="daysopen">
-                <dt>Sunday-Thurday</dt>
-                <dd>11am-9pm</dd>
-                <dt>Friday-Saturday</dt>
-                <dd>11am-11pm</dd>
-            </dl>
-
-        </article>
-        <article class="main__article">
-            <p>We do make exceptions sometimes and that means we open some open on Sundays sometimes and on some Holidays as well. By doing this we try to make sure that we keep our clients happy cos they are the reason we opened this establishment in the first place. If a client wants to celebrate a special occassion like birthdays, anniversaries etc, we put our hall at their disposition so they can also invite their friends and family. Offering them a serene environment for them to enjoy themself, have some good food and drinks, have some good laughs as well. In general make the experience a highly memorable one. So all they have to do is sit back, relax and have a great time.</p>
-
-            <p>
-                <a style="color: red; display: flex; justify-content: center; align-items: center; font-weight: bold;" href="#">Back To Top</a>
-            </p>
-
-        </article>
-
+    <main class="container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
     </main>
-    <footer class="footer">
-        <p>
-            <span class="nowrap">Copyright &copy;<time id="year"></time></span>
-            <span class="nowrap">Little Taco Shop</span>
-        </p>
+    <aside class="sidebar el">
+        <h2>Sidebar</h2>
+    </aside>
+    <footer class="footer el">
+        <h2>Footer</h2>
     </footer>
 </body>
-
 </html>
